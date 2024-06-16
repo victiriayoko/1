@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 1;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+ 
+.cabeçalho-tres{
+    background-color: #424E61;
+    color: white;
+    display: flex;   
+    padding: 24px 0;
+
+}
+.cabeçalho-voltar-inicial{
+    align-items: flex-start;
+    justify-content: left;
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+       
+}
+.cabeçalho-tres-imagem{
+    
+    width: 10%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+.sobre-escola{
+    background-image: linear-gradient(#424E61,#35517e);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.sobre-escola-div-conteudo{
+    width: 70%;
+}
+
+.sobre-escola-titulo{
+    padding: 14px 25;
+    font-size: 95%;
+    
+}
+ .sobre-escola-texto-um{
+    font-size: 67%;
+    padding: 10px 0;
+ }
+ .img-sao-joao-lasalle{
+    width: 25%;
+}
+.sobre-escola-dois{
+    background-image: linear-gradient(#35517e,#2f4d7e);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.img-um{
+    width: 25%;
+}
+
+.sobre-escola-dois-div-conteudo{
+    width: 70%;
+}
+.sobre-escola-texto-dois{
+    font-size: 67%;
+    padding: 10px 0;
+}
+.sobre-escola-texto-tres{
+    font-size: 67%;
+    padding: 10px 0;
+ }
+ .sobre-escola-texto-quatro{
+    font-size: 67%;
+    padding: 10px 0;
+}
+ .sobre-escola-tres{
+    background-image: linear-gradient(#2f4d7e,#375991);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.sobre-escola-tres-div-conteudo{
+    width: 70%;
+}
+.img-dois{
+    width: 25%;
+}
+
+.sobre-escola-texto-cinco{
+    font-size: 67%;
+    padding: 10px 0;
+ }
+
+.sobre-escola-texto-seis{
+    font-size: 67%;
+    padding: 10px 0;
+}
+.sobre-escola-texto-sete{
+    font-size: 67%;
+    padding: 10px 0;
+ }
+
+.sobre-escola-texto-oito{
+    font-size: 67%;
+    padding: 10px 0;
+}
+.rodape{
+    background-color: #375991;
+    text-align: center;
+}
+.rodape-imagem{
+    height: 60px;
+}

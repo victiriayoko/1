@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 1;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.cabeçalho{
+    
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 24px 0
+    
+}
+
+div a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 30px 5px 0;
+    font-size: 12pt;
+    position: relative;
+}
+
+div a::after{
+    content:" ";
+    width: 0%;
+    height: 4px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+div a:hover::after{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    padding: 60px 4%;   
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    transition: .1s;
+}
+header.rolagem{
+
+    background-image: linear-gradient(#424E61,#35517e);
+    padding: 10px 0;
+}
+
+.cabeçalho-imagem{
+    width: 40%;
+    
+   
+}
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 34px;
+    font-size: 0 24px;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.cabeçalho-lista-item{
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.escola-imagem{
+    width: 25%;
+}
+.escola{
+    background-image: linear-gradient(#424E61,#35517e);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+    background-size: cover;
+    height: 100vh;
+}
+.escola-div-conteudo{
+    width: 70%;
+}
+.escola-titulo{
+    padding: 24px 0;
+}
+.escola-titulo-dois{
+    padding: 24px 0;
+}
+.proposta-imagem{
+    width: 30%;
+}
+.proposta-div-conteudo{
+    width: 65%;
+}
+.proposta-educativa{
+    background-image: linear-gradient(#35517e,#2f4d7e);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.proposta-educativa-texto-dois{
+    padding: 14px 0;
+    justify-content: center;
+    align-items: center;
+}
+.fundamentos-div-conteudo{
+    width: 95%;
+}
+.fundamentos{
+    background-image: linear-gradient(#2f4d7e,#375991);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+
+}
+.fundamentos-titulo-um{
+    padding: 24px 0;
+}
+.fundamentos-texto-dois{
+    padding: 14px 0;
+}
+.fundamentos-topico-um{
+    padding: 14px 0;
+}
+.fundamentos-topico-dois{
+    padding: 14px 0;
+}
+.rodape{
+    background-color: #375991;
+    text-align: center;
+}
+.rodape-imagem{
+    height: 60px;
+}
+

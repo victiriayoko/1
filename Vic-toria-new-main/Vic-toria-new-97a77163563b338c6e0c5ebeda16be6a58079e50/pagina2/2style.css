@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 1;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+ 
+.cabeçalho-dois{
+    background-color: #424E61;
+    color: white;
+    display: flex;  
+    padding: 24px 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+.voltar{
+    align-items: flex-start;
+    justify-content: left;
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+       
+}
+
+.voltar{
+    align-items: flex-start;
+    justify-content: left;
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+   
+    
+}
+
+.cabeçalho-dois-imagem{
+    
+    width: 10%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.sobre-escola{
+    background-image: linear-gradient(#424E61,#35517e);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.sobre-escola-div-conteudo{
+    width: 65%;
+}
+
+.imagem-um{
+    width: 30%;
+}
+.sobre-escola-titulo{
+    padding: 14px 25;
+    font-size: 95%;
+    
+}
+ .sobre-escola-texto-um{
+    font-size: 70%;
+    padding: 10px 0;
+ }
+
+.sobre-escola-texto-dois{
+    font-size: 70%;
+    padding: 10px 0;
+}
+
+.sobre-escola-um{
+    background-image: linear-gradient(#35517e,#2f4d7e);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.sobre-escola-um-div{
+    width: 60%;
+}
+
+.eduçao-fisica-img{
+    width: 35%;
+}
+
+.sobre-escola-titulo-dois{
+    padding: 0px 0;
+    font-size: 95%;
+}
+
+.sobre-escola-texto-tres{
+    font-size: 75%;
+    padding: 15px 0;
+}
+
+.sobre-escola-topico-um{
+    font-size: 75%;
+    padding: 15px 0;
+}
+
+.sobre-escola-topico-dois{
+    font-size: 75%;
+    padding: 15px 0;
+}
+   
+.sobre-escola-topico-tres{
+    font-size: 75%;
+    padding: 15px 0;
+
+}
+
+.sobre-escola-dois{
+    background-image: linear-gradient(#2f4d7e,#375991);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.sobre-escola-dois-div{
+    width: 60%;
+}
+
+.professora-alunos-imagem{
+    width: 35%;
+}
+
+.sobre-escola-titulo-tres{
+    padding: 0px 0;
+    font-size: 95%;
+}
+
+.sobre-escola-texto-quatro{
+    font-size: 75%;
+    padding: 15px 0;
+}
+
+.sobre-escola-topico-quatro{
+    font-size: 75%;
+    padding: 15px 0;
+}
+
+.sobre-escola-topico-cinco{
+    font-size: 75%;
+    padding: 15px 0;
+}
+
+.sobre-escola-topico-cinco{
+    font-size: 75%;
+    padding: 15px 0;
+}
+
+.sobre-escola-topico-seis{
+    font-size: 75%;
+    padding: 15px 0;
+}
+
+.sobre-escola-topico-sete{
+    font-size: 75%;
+    padding: 15px 0;
+}
+
+.sobre-escola-topico-oito{
+    font-size: 75%;
+    padding: 15px 0;
+}
+.rodape{
+    background-color: #375991;
+    text-align: center;
+}
+.rodape-imagem{
+    height: 60px;
+}
